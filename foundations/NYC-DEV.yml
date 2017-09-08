@@ -83,6 +83,7 @@ iaas_type: vsphere
 # These are common parameters for ALL types of IaaS.
 # ops manager uri - do not include protocol. e.g. opsmgr.pez.pivotal.io/
 opsman_uri: ((opsman_uri))
+opsman_domain_or_ip_address: ((opsman_ip))
 # ops manager admin user ID. e.g. admin
 opsman_admin_username: ((opsman_admin_username))
 # Ops Manager admin password
